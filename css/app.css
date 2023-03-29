@@ -1,45 +1,48 @@
-:root{
-    --color-fondo: #e1dfde;
-    --color-card: #ffffed;
-    --color-titulo: #363749;
-    --color-texto: #908A8B;
+:root {
+  --color-fondo: #d6e1f0;
+  --color-card: #ffffff;
+  --color-titulo: #363749;
+  --color-texto: #908a8b;
 }
 
-body{
-    background-color: var(--color-fondo);
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body {
+  font-size: 15px;
+  background-color: var(--color-fondo);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.card{
-    width: 320px;
-    height: 500px;
-    margin: 25px auto;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--color-card);
-    border-radius: 25px;
+.card {
+  width: 320px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-card);
+  border-radius: 25px;
 }
 
-.card__image{
-    margin: 15px 15px;
+.card__image {
+  margin: 15px 15px;
 }
 
-.image{
-    width: 287px;
-    height: 288px;
+.image {
+  width: 287px;
+  height: 288px;
 }
 
-.card__text{
-    margin: 0 25px;
-    text-align: center;
+.card__text {
+  margin: 0 25px;
+  text-align: center;
 }
 
-.card__text-title{
-    color: var(--color-titulo);
+.card__text-title {
+  color: var(--color-titulo);
+  font-size: 22px;
 }
 
-.card__text-description{
-    color: var(--color-texto);
+.card__text-description {
+  color: var(--color-texto);
 }
